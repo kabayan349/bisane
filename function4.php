@@ -21,7 +21,7 @@ class dzain
     public function __construct($token = false)
     {
         $this->sessionId = '78EB815C-6AE5-4969-A6B1-BE5EC893F7AA'; // generated from self::uuidv4();
-        $this->uniqueId = '.time()."9876".mt_rand(1000,9999)'; // generated from self::uuidv4();
+        $this->uniqueId = '.time()."12367".mt_rand(1000,9999)'; // generated from self::uuidv4();
         
         if ($token) {
             $this->authToken = $token;
